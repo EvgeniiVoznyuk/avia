@@ -1,0 +1,30 @@
+@import "variables"
+
+@mixin flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin container($max-width)
+  max-width: $max-width
+  margin: 0 auto
+
+@mixin border-radius($radius: 4px)
+  border-radius: $radius
+
+@mixin box-shadow
+  box-shadow: 0 2px 4px $box-shadow-color
+
+@mixin flex-center-column
+  display: flex
+  flex-direction: column
+  align-items: center
+
+@mixin flex-space-between
+  display: flex
+  justify-content: space-between
+
+@mixin flex-column-gap($gap)
+  display: flex
+  flex-direction: column
+  gap: $gap

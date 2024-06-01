@@ -1,0 +1,13 @@
+@import 'styles/variables'
+@import 'styles/mixins'
+
+.header
+  @include flex-center
+  &__logo
+    img
+      width: 60px
+      border-radius: 50%
+      transition: box-shadow .4s
+
+      &:hover
+        box-shadow: 0 7px 14px 8px #bcd7f5

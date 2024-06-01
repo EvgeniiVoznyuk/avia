@@ -1,0 +1,68 @@
+@import 'styles/variables'
+@import 'styles/mixins'
+
+.card
+  background: $white-color
+  @include border-radius
+  padding: $spacing-medium
+  @include box-shadow
+  display: flex
+  flex-direction: column
+  justify-content: center
+  gap: 15px
+  margin-bottom: $spacing-medium
+  align-items: center
+  cursor: pointer
+  transition: all .3s
+
+  &:hover
+    transform: scale(1.02)
+
+  &:last-child
+    margin-bottom: 0
+
+  &__header
+    width: 100%
+    @include flex-space-between
+    align-items: center
+
+
+  &__details
+    flex-grow: 1
+    display: flex
+    flex-direction: column
+    gap: 10px
+
+  &__details_row
+    display: flex
+    align-items: center
+    gap: 20px
+
+  &__details_col
+    min-width: 140px
+    display: flex
+    flex-direction: column
+    align-items: start
+    justify-content: start
+    gap: 0
+
+  &__price
+    font-size: $font-size-large
+    font-weight: 600
+    margin-bottom: $spacing-small
+    color: $blue-100
+
+  &__col_title
+    font-size: 12px
+    font-weight: 500
+    line-height: 18px
+    letter-spacing: 0.5px
+    color: #A0B0B9
+    text-transform: uppercase
+
+  &__col_info
+    height: 21px
+    font-size: 14px
+    font-weight: 600
+    line-height: 21px
+    color: $gray-100

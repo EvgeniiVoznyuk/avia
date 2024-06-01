@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Avia Ticket Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://evgeniivoznyuk.github.io/avia/)
 
-## Available Scripts
+Welcome to the Avia Ticket Search project! This project provides a user-friendly interface to search and filter flight tickets based on various criteria.
 
-In the project directory, you can run:
+## Author
 
-### `yarn start`
+**Yevhenii Voznyuk**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/evgeniivoznyuk/) or [GitHub](https://github.com/evgeniivoznyuk).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech Stack
 
-### `yarn test`
+This project is built using the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: A JavaScript library for building user interfaces
+- **TypeScript**: A superset of JavaScript that adds static typing
+- **Redux**: A state management library for JavaScript applications
+- **Redux Toolkit**: The official, recommended way to write Redux logic
+- **Sass**: A preprocessor scripting language that is interpreted or compiled into CSS
+- **Axios**: A promise-based HTTP client for the browser and Node.js
+- **gh-pages**: A package for deploying projects to GitHub Pages
 
-### `yarn build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Filtering**: Filter tickets based on the number of stops
+- **Sorting**: Sort tickets by price, duration, and optimal criteria
+- **Load More**: Load more tickets on demand
+- **Responsive Design**: Optimized for different screen sizes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy of the project up and running, follow these simple steps.
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Make sure you have npm and Node.js installed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```sh
+   git clone https://github.com/evgeniivoznyuk/avia.git
+   ```
 
-## Learn More
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Start the development serve
+   ```sh
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+[Project Link](https://evgeniivoznyuk.github.io/avia/)

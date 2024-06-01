@@ -1,0 +1,26 @@
+@import 'styles/variables'
+@import 'styles/mixins'
+
+.ticketList
+  width: 100%
+  display: flex
+  flex-direction: column
+  gap: 20px
+
+  &__loadMore, &__showLess
+    width: 100%
+    background: $blue-100
+    border: none
+    padding: 15px 20px
+    border-radius: 5px
+    cursor: pointer
+    font-size: 12px
+    line-height: 20px
+    letter-spacing: 0.5px
+    font-weight: 500
+    color: $white-color
+    text-transform: uppercase
+    transition: all .3s
+
+    &:hover
+      background: darken($primary-color, 5%)

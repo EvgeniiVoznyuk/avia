@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "price": "13 300",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "10:45 – 08:00",
+        "travelTime": "34г 15хв",
+        "transfers": ["HKG"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "11:20 – 00:50",
+        "travelTime": "16г 30хв",
+        "transfers": ["HKG"]
+      }
+    ],
+    "travelTime": 50.25
+  },
+  {
+    "id": 2,
+    "price": "15 100",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "10:45 – 08:00",
+        "travelTime": "17г 15хв",
+        "transfers": ["HKG", "JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "11:20 – 00:50",
+        "travelTime": "40г 30хв",
+        "transfers": ["HKG", "JNB"]
+      }
+    ],
+    "travelTime": 57.75
+  },
+  {
+    "id": 3,
+    "price": "15 400",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "10:45 – 08:00",
+        "travelTime": "20г 15хв",
+        "transfers": ["HKG"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "11:20 – 00:50",
+        "travelTime": "13г 30хв",
+        "transfers": ["HKG"]
+      }
+    ],
+    "travelTime": 33.75
+  },
+  {
+    "id": 4,
+    "price": "21 400",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "10:45 – 08:00",
+        "travelTime": "21г 15хв",
+        "transfers": ["HKG", "JNB", "JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "11:20 – 00:50",
+        "travelTime": "12г 30хв",
+        "transfers": ["HKG", "JNB", "JNB"]
+      }
+    ],
+    "travelTime": 33.75
+  },
+  {
+    "id": 5,
+    "price": "23 900",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "10:45 – 08:00",
+        "travelTime": "11г 15хв",
+        "transfers": []
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "11:20 – 00:50",
+        "travelTime": "9г 30хв",
+        "transfers": []
+      }
+    ],
+    "travelTime": 20.75
+  },
+  {
+    "id": 6,
+    "price": "18 200",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "14:20 – 23:10",
+        "travelTime": "8г 50хв",
+        "transfers": ["HKG"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "06:30 – 15:20",
+        "travelTime": "8г 50хв",
+        "transfers": ["HKG"]
+      }
+    ],
+    "travelTime": 17.5
+  },
+  {
+    "id": 7,
+    "price": "16 500",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "09:00 – 19:45",
+        "travelTime": "10г 45хв",
+        "transfers": ["JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "22:30 – 07:15",
+        "travelTime": "10г 45хв",
+        "transfers": ["JNB"]
+      }
+    ],
+    "travelTime": 21.5
+  },
+  {
+    "id": 8,
+    "price": "17 800",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "13:15 – 22:45",
+        "travelTime": "9г 30хв",
+        "transfers": ["HKG"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "03:30 – 12:00",
+        "travelTime": "9г 30хв",
+        "transfers": ["HKG"]
+      }
+    ],
+    "travelTime": 19
+  },
+  {
+    "id": 9,
+    "price": "20 600",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "07:00 – 18:00",
+        "travelTime": "11г 0хв",
+        "transfers": ["HKG", "JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "19:00 – 06:00",
+        "travelTime": "11г 0хв",
+        "transfers": ["HKG", "JNB"]
+      }
+    ],
+    "travelTime": 22
+  },
+  {
+    "id": 10,
+    "price": "19 700",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "16:15 – 02:45",
+        "travelTime": "10г 30хв",
+        "transfers": ["JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "04:30 – 15:00",
+        "travelTime": "10г 30хв",
+        "transfers": ["JNB"]
+      }
+    ],
+    "travelTime": 21
+  },
+  {
+    "id": 11,
+    "price": "14 300",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "05:45 – 15:00",
+        "travelTime": "9г 15хв",
+        "transfers": []
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "17:30 – 03:45",
+        "travelTime": "9г 15хв",
+        "transfers": []
+      }
+    ],
+    "travelTime": 18.5
+  },
+  {
+    "id": 12,
+    "price": "22 100",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "12:30 – 22:15",
+        "travelTime": "9г 45хв",
+        "transfers": ["HKG", "JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "01:30 – 11:15",
+        "travelTime": "9г 45хв",
+        "transfers": ["HKG", "JNB"]
+      }
+    ],
+    "travelTime": 19.5
+  },
+  {
+    "id": 13,
+    "price": "18 900",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "11:00 – 20:30",
+        "travelTime": "9г 30хв",
+        "transfers": ["JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "22:00 – 07:30",
+        "travelTime": "9г 30хв",
+        "transfers": ["JNB"]
+      }
+    ],
+    "travelTime": 19
+  },
+  {
+    "id": 14,
+    "price": "24 300",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "06:30 – 15:00",
+        "travelTime": "8г 30хв",
+        "transfers": ["HKG"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "18:00 – 02:30",
+        "travelTime": "8г 30хв",
+        "transfers": ["HKG"]
+      }
+    ],
+    "travelTime": 17
+  },
+  {
+    "id": 15,
+    "price": "17 500",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "13:45 – 22:15",
+        "travelTime": "8г 30хв",
+        "transfers": ["HKG", "JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "23:45 – 08:15",
+        "travelTime": "8г 30хв",
+        "transfers": ["HKG", "JNB"]
+      }
+    ],
+    "travelTime": 17
+  },
+  {
+    "id": 16,
+    "price": "20 800",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "15:30 – 01:00",
+        "travelTime": "9г 30хв",
+        "transfers": []
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "03:00 – 12:30",
+        "travelTime": "9г 30хв",
+        "transfers": []
+      }
+    ],
+    "travelTime": 19
+  },
+  {
+    "id": 17,
+    "price": "21 500",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "04:15 – 13:45",
+        "travelTime": "9г 30хв",
+        "transfers": ["JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "16:15 – 01:45",
+        "travelTime": "9г 30хв",
+        "transfers": ["JNB"]
+      }
+    ],
+    "travelTime": 19
+  },
+  {
+    "id": 18,
+    "price": "25 200",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "07:30 – 16:00",
+        "travelTime": "8г 30хв",
+        "transfers": ["HKG"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "17:00 – 01:30",
+        "travelTime": "8г 30хв",
+        "transfers": ["HKG"]
+      }
+    ],
+    "travelTime": 17
+  },
+  {
+    "id": 19,
+    "price": "19 400",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "09:15 – 18:00",
+        "travelTime": "8г 45хв",
+        "transfers": []
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "19:00 – 03:45",
+        "travelTime": "8г 45хв",
+        "transfers": []
+      }
+    ],
+    "travelTime": 17.5
+  },
+  {
+    "id": 20,
+    "price": "18 600",
+    "logo": "a4e",
+    "details": [
+      {
+        "path": "LHR – DXB",
+        "time": "06:00 – 14:45",
+        "travelTime": "8г 45хв",
+        "transfers": ["HKG", "JNB"]
+      },
+      {
+        "path": "DXB – LHR",
+        "time": "16:00 – 00:45",
+        "travelTime": "8г 45хв",
+        "transfers": ["HKG", "JNB"]
+      }
+    ],
+    "travelTime": 17.5
+  }
+]
