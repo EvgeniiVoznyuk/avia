@@ -11,7 +11,9 @@ const TicketList: React.FC = () => {
   const [visibleCount, setVisibleCount] = useState(VISIBLE_TICKETS_COUNT)
 
   const filteredTickets = tickets.filter((ticket) => {
-    if (filters.length === 0 || filters.includes("all")) return true
+    if (!filters.length) return false
+
+    if (filters.includes("all")) return true
     const stopsCount = ticket.details[0]?.transfers.length || 0
     if (filters.includes("no-stops") && stopsCount === 0) return true
     if (filters.includes("one-stop") && stopsCount === 1) return true
@@ -57,9 +59,13 @@ const TicketList: React.FC = () => {
   return (
     <div className={s.ticketList}>
       <div>
-        {sortedTickets.slice(0, visibleCount).map((ticket) => (
-          <TicketCard key={ticket.id} {...ticket} />
-        ))}
+        {sortedTickets.length ? (
+          sortedTickets
+            .slice(0, visibleCount)
+            .map((ticket) => <TicketCard key={ticket.id} {...ticket} />)
+        ) : (
+          <p>Tickets list is empty</p>
+        )}
       </div>
 
       {visibleCount < sortedTickets.length && (

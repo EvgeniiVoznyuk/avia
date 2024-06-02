@@ -10,10 +10,20 @@
   flex-direction: column
   gap: 50px
 
+  @media (max-width: $breakpoint-medium)
+    gap: 20px
+
+
   &__content
     display: flex
-    gap: 40px
     align-items: flex-start
+    gap: 40px
+
+    @media (max-width: $breakpoint-medium)
+      flex-direction: column
+      align-items: center
+      gap: 20px
+
 
   &__list
     @include flex-column-gap(18px)

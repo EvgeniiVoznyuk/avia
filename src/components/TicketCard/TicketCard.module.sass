@@ -46,6 +46,10 @@
     justify-content: start
     gap: 0
 
+    @media (max-width: $breakpoint-small)
+      min-width: max-content
+
+
   &__price
     font-size: $font-size-large
     font-weight: 600
@@ -60,9 +64,14 @@
     color: #A0B0B9
     text-transform: uppercase
 
+
+
   &__col_info
     height: 21px
     font-size: 14px
     font-weight: 600
     line-height: 21px
     color: $gray-100
+
+    @media (max-width: $breakpoint-small)
+      font-size: 12px
