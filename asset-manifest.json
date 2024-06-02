@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/avia/static/css/main.fb867932.css",
-    "main.js": "/avia/static/js/main.c584be48.js",
+    "main.js": "/avia/static/js/main.35c6659e.js",
     "static/media/a4e-logo.svg": "/avia/static/media/a4e-logo.43b53ccfc0b90863da7c95dea993cec8.svg",
     "static/media/logo.svg": "/avia/static/media/logo.be8b99ea0e35a53bbae84d50d0784c66.svg",
     "index.html": "/avia/index.html",
     "main.fb867932.css.map": "/avia/static/css/main.fb867932.css.map",
-    "main.c584be48.js.map": "/avia/static/js/main.c584be48.js.map"
+    "main.35c6659e.js.map": "/avia/static/js/main.35c6659e.js.map"
   },
   "entrypoints": [
     "static/css/main.fb867932.css",
-    "static/js/main.c584be48.js"
+    "static/js/main.35c6659e.js"
   ]
 }
